@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +34,91 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background:linear-gradient(to left, green, white);
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  /* color:white; */
+}
+
+.container{
+  display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    width:100%;
+}
+  .form-box{
+      width:380px;
+      min-height:450px;
+      background-color:black;
+      padding:20px;
+      display:flex;
+      flex-direction:column;
+      justify-content:flex-start;
+      opacity:0.6;
+      border-radius:2%;
+  }
+.header-form{
+  margin-bottom:15px;
+}
+button{
+  margin-top:40px;
+  margin-bottom:10px;
+}
+.message{
+  display:flex;
+  justify-content:space-between;
+  color: #fff;
+}
+.social{
+  display:flex;
+  justify-content:space-around;
+  padding:30px;
+}
+
+.social i{
+  font-size:35px;
+}
+
+.social i:hover{
+  color:red;
+  cursor:pointer;
+}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 1.05rem 1.2rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+}
+.box {
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+}
+
+.g-btn {
+  width: 100% !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 15px !important;
+}
+.g-btn > div,
+.g-btn > div > svg {
+  width: 40px !important;
+  height: 38px !important;
+}
+
+
+
+
+
